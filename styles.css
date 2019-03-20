@@ -39,7 +39,7 @@ li {
 .mes-rubriques {
 	background-color: white;
 	padding: 20px;
-	margin: 30px auto;
+	margin-top: 30px;
 	box-shadow:1px 1px 3px #999;
 	width: 70%;
 }
