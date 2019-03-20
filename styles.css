@@ -1,0 +1,135 @@
+body {
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	color: black;
+	font-variant: small-caps;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+h2 {
+	color: #3d9ebf;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-style: oblique;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Indie Flower', cursivse;
+	font-family: 'Lato', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+.mes-rubriques {
+	background-color: white;
+	padding: 20px;
+	margin: 30px auto;
+	box-shadow:1px 1px 3px #999;
+	width: 70%;
+}
+
+.fa-facebook-square {
+	font-size: 70px;
+	transition: 0.8s ease;
+	color: grey;
+}
+
+.fa-facebook-square:hover {
+	transform: scale(0.8);
+	color: #3a3a3a;
+}
+.fa-linkedin {
+	font-size: 70px;
+	transition: 0.8s ease;
+	color: grey;
+}
+
+.fa-linkedin:hover {
+	transform: scale(0.8);
+	color: #3a3a3a;
+}
+
+#photopro {
+	width: 200px;
+	height: 200px;
+	border-radius:10px;
+	transition: 0.8s ease;
+}
+
+#photopro:hover {
+	border-radius:50%;
+}
+
+#button {
+	padding:11px;
+	margin: 20px;
+	border-radius:12px;
+	background: #3a3a3a;
+	color:#ffffff;
+	font:bold 13px Verdana;
+	box-shadow:2px #d3d3d3;
+	display : inline-block;
+	transition: 0.5s ease;
+}
+
+#button:hover {
+	background-color: #666666;
+	color: white;
+	box-shadow:3px #d3d3d3;
+	}
+.visible-small-screen {
+	display: none;
+}
+
+@media (max-width: 960px) {
+  .container {
+    margin-left: auto;
+  	margin-right: auto;
+  	width: 650px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin-left: auto;
+  	margin-right: auto;
+  	width: 400px;
+  }
+  #photopro {
+  	width: 150px;
+  	height: 150px;
+  }
+  #button {
+  	padding:30px;
+	margin: 20px;
+	border-radius:12px;
+	background: #3a3a3a;
+	color:#ffffff;
+	font:bold 13px Verdana;
+	box-shadow:2px #d3d3d3;
+	display : inline-block;
+	transition: 0.5s ease;
+  }
+  .visible-large-screen {
+	display: none;
+}
+  .visible-small-screen {
+	display: block;
+}
+
