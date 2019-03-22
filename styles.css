@@ -1,5 +1,4 @@
 body {
-	text-align: center;
 	background-color: #f2f2f2;
 }
 
@@ -125,3 +124,8 @@ li {
 #mon-carousel {
 height: 50vh;
 }
+
+#map {
+padding: 15px;
+}
+
